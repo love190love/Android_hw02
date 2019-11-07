@@ -1,9 +1,9 @@
 package com.example.homework;
 
 public class HomeWork04 {
-public static void main(String[] avrg) {
+    public static void main(String[] avrg) {
         java.util.Scanner scanner = new
-        java.util.Scanner(System.in);
+                java.util.Scanner(System.in);
 
         System.out.println("請輸入秒數:");
         int inp = scanner.nextInt();
@@ -11,5 +11,5 @@ public static void main(String[] avrg) {
         int Min = (inp % 3600) / 60;
         int sec = inp % 60;
         System.out.println(  hu + " 時 " + ""+Min +  " 分 " + sec+ "秒");
-        }
-        }
+    }
+}
